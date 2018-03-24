@@ -47,20 +47,29 @@ Is this ok? (yes)
 
 ```
 $ mkdir lib public public/js 
-$ touch app-client.js app.js public/index.html
-$ git add app.js app-client.js public/index.html
-$ npm i --save-dev grunt grunt-browserify grunt-contrib-jshint
-$ git add package.json package-lock.json
+$ touch app-client.js app.js public/index.html public/js/bundle.js
+$ git add app.js app-client.js public/index.html public/js/bundle.js
+
+$ echo node_modules > .gitignore
+$ git add .gitignore
+
+# --save flag is for required packages
 $ npm i --save express
 + express@4.16.3
 added 46 packages from 33 contributors in 5.016s
+
+# --save-dev is for devRequired packages
+$ npm i --save-dev grunt grunt-browserify grunt-contrib-jshint
+$ git add package.json package-lock.json
+
+
 ```
 
 
 ```
 [david@ElPolloLoco:~/dev/js-proj-template]$ git add GruntFile.js
-[david@ElPolloLoco:~/dev/js-proj-template]$ echo node_modules > .gitignore
-[david@ElPolloLoco:~/dev/js-proj-template]$ git add .gitignore
-[david@ElPolloLoco:~/dev/js-proj-template]$ touch public/js/bundle.js
-[david@ElPolloLoco:~/dev/js-proj-template]$ git add public/js/bundle.js
+
+
+[david@ElPolloLoco:~/dev/js-proj-template]$ 
+[david@ElPolloLoco:~/dev/js-proj-template]$ 
 ```
