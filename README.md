@@ -53,8 +53,11 @@ $ npm i --save-dev grunt grunt-browserify grunt-contrib-jshint
 $ git add package.json package-lock.json
 $ npm i --save express
 + express@4.16.3
-```
 added 46 packages from 33 contributors in 5.016s
+```
+
+
+```
 [david@ElPolloLoco:~/dev/js-proj-template]$ git add GruntFile.js
 [david@ElPolloLoco:~/dev/js-proj-template]$ echo node_modules > .gitignore
 [david@ElPolloLoco:~/dev/js-proj-template]$ git add .gitignore
