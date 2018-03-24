@@ -1,0 +1,33 @@
+{
+  "name": "js-proj-template",
+  "version": "1.0.0",
+  "description": "boilerplate to get a browserify/node/grunt project going",
+  "main": "app-client.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meekrob/js-proj-template.git"
+  },
+  "keywords": [
+    "javascript",
+    "browserify",
+    "grunt",
+    "node"
+  ],
+  "author": "David C. King",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meekrob/js-proj-template/issues"
+  },
+  "homepage": "https://github.com/meekrob/js-proj-template#readme",
+  "devDependencies": {
+    "grunt": "^1.0.2",
+    "grunt-browserify": "^5.2.0",
+    "grunt-contrib-jshint": "^1.1.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
