@@ -67,9 +67,7 @@ $ git add package.json package-lock.json
 
 
 ```
-[david@ElPolloLoco:~/dev/js-proj-template]$ git add GruntFile.js
-
-
-[david@ElPolloLoco:~/dev/js-proj-template]$ 
-[david@ElPolloLoco:~/dev/js-proj-template]$ 
+$ git add GruntFile.js
+$ git commit -a -m "initial commit" 
+$ git push origin master
 ```
