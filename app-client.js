@@ -1,4 +1,7 @@
-
+$ = require('jquery');
+$(document).ready(function() {
+    $('.jquery-test').text("jquery is working");
+});
 var myClass = require('./lib/myClass');
 console.log("calling functions from an object of myClass");
 var myClassObj = new myClass("myClassObj");
