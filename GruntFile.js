@@ -2,7 +2,7 @@ module.exports = function(grunt) {
         // grunt configuration details   
     grunt.initConfig({
         jshint: { // syntax checking
-            files: ["*.js", "test/*.js", "lib/**/*.js"], // add everything here
+            files: ["*.js", "test/*.js", "lib/**/*.js"], // add everything (that _you_ write) here 
             options: {
                 esnext: true,
                 globals: { // to keep it from complaining about jquery
