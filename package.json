@@ -23,12 +23,14 @@
   },
   "homepage": "https://github.com/meekrob/js-proj-template#readme",
   "devDependencies": {
-    "grunt": "^1.0.2",
-    "grunt-browserify": "^5.2.0",
-    "grunt-contrib-jshint": "^1.1.0"
+    "grunt": "^1.0.3",
+    "grunt-browserify": "^5.3.0",
+    "cached-path-relative": ">=1.0.2",
+    "grunt-contrib-jshint": "^1.1.0",
+    "randomatic": ">=3.0.0"
   },
   "dependencies": {
-    "express": "^4.16.3",
+    "express": "^4.16.4",
     "jquery": "^3.3.1"
   }
 }
