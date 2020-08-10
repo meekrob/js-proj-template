@@ -23,17 +23,17 @@
   },
   "homepage": "https://github.com/meekrob/js-proj-template#readme",
   "devDependencies": {
+    "braces": ">=2.3.1",
     "cached-path-relative": ">=1.0.2",
-    "grunt": "^1.0.4",
+    "grunt": "^1.2.1",
     "grunt-browserify": "^5.3.0",
     "grunt-contrib-jshint": "^1.1.0",
-    "randomatic": ">=3.0.0",
-    "lodash": ">=4.17.13",
-    "braces": ">=2.3.1",
-    "js-yaml": ">=3.13.1"
+    "js-yaml": "^3.14.0",
+    "lodash": ">=4.17.19",
+    "randomatic": ">=3.0.0"
   },
   "dependencies": {
     "express": "^4.17.1",
-    "jquery": "^3.4.1"
+    "jquery": ">=3.5.0"
   }
 }
