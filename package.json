@@ -24,7 +24,7 @@
   "homepage": "https://github.com/meekrob/js-proj-template#readme",
   "devDependencies": {
     "braces": ">=2.3.1",
-    "cached-path-relative": ">=1.0.2",
+    "cached-path-relative": ">=1.1.0",
     "grunt": "^1.2.1",
     "grunt-browserify": "^5.3.0",
     "grunt-contrib-jshint": "^1.1.0",
